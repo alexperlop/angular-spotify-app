@@ -1,0 +1,18 @@
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+}
+.container-fluid{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.nav-item a{
+    color: white;
+    padding-right: 30px;
+}
+.navbar-collapse{
+    padding-left: 60px;
+}
+.active{
+    text-decoration: underline;
+}

@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-3">
+    <label for="search">Buscar :</label>
+    <input
+      #termn
+      id="search"
+      type="text"
+      (keyup)="search(termn.value)"
+      class="form-control"
+      placeholder="Buscar"
+    />
+  </div>
+  <app-loading *ngIf="show"></app-loading>
+  <app-card *ngIf="!show" [items]="artists"></app-card>
+</div>
